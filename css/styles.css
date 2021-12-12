@@ -102,33 +102,111 @@ ul {
 
 .about-container {
     position: relative;  
-    width: 120%;  
+    width: 150%;  
     height: 100px;
 }
 
 .about-left-block {
-    position: fixed;  
-    left: 200px;  
-    top: 120px;  
+    position: absolute;  
+    left: 10;  
+    right: 550px;
+    top: 10px;  
     bottom: 0;  
-    width: 10%;  
-    box-sizing: border-box; 
+    width: 50%;  
+    box-sizing: content-box; 
 
 }
 
 .about-right-block {
-    position: fixed;  
-    top: 340px;  
+    position: absolute;  
+    top: 150px;  
     right: 100px;  
     bottom: 0;  
-    width: 40%;  
-    box-sizing: border-box; 
+    width: 50%;  
+    box-sizing: content-box; 
 
 }
 
 .aboutme {
     padding-top: 100px;
 
+}
+
+.mywork {
+    text-align: center;
+}
+
+.blacktext {
+    color: #333;
+}
+
+.blackbutton{
+    display: inline-block;
+    transition: all .5s ease;
+    color: #333;
+    border: 2px solid #333;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 4px;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+
+.workex1 {
+    width: 500px;
+    background-color: white;
+    box-sizing: border-box; 
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+.workex2 {
+    width: 500px;
+    background-color: white;
+    box-sizing: border-box; 
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+.workex3 {
+    width: 500px;
+    background-color: white;
+    box-sizing: border-box; 
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+.resume {
+    width: 500px;
+    background-color: white;
+    box-sizing: border-box; 
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    justify-content: center;
+
+}
+
+.contact-container {
+    text-align: center;
+    max-width: 600px;
+    display: fixed;
+    padding-left: 400px ;
 }
 
 h2 {
@@ -168,13 +246,15 @@ body {
 form {
     background: #ededed;
     padding: 15px 20px;
-    max-width: 600px;
-    border-radius: 8px;
+    max-width: 400px;
+    border-radius: 10px;
     color: #333;
     font-family: sans-serif;
     font-size: 120%;
     text-align: left;
     display: block;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
 label {
@@ -187,7 +267,7 @@ label {
 
 .submit input {
     background: #333;
-    color: white;
+    color:#fff;
     padding: 5px 10px;
     margin-top: 10px;
     border-radius: 40px;
@@ -200,9 +280,12 @@ label {
 }
 
 input {
-    padding: 5px;
-    border-radius: 40px;
-    width: 220px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 370px;
+    margin-top: 5px;
+    background-color: #7d7d7d;
+    color:white
 
 }
 

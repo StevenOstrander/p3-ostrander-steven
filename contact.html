@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Me</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">CONTACT FORM</a></h1>
+        </header>
+
+        <main class="container">
+            <h2>Say Hi!</h2>
+            <img class="wavinghand" src="images/wavinghand.gif" alt="Waving Hand" width="75">
+            <p>Please excuse the dust. This website is loading. In the mean time, please fill out the form below, and I will be in contact with you shortly!</p>
+            
+            <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                <div class="first-name input">
+                    <label for="firstname" class="label_input_wrap">First Name: </label>
+                    <input type="text" name="req_firstname" id="firstname"  placeholder="ex. Dave" />
+                </div>
+
+                <div class="last-name input">
+                    <label for="lastname" class="label_input_wrap">Last Name: </label>
+                    <input type="text" name="req_lastname" id="lastname"  placeholder="ex. Williams" />
+                </div>
+
+                <div class="email input">
+                    <label for="email" class="label_input_wrap">Email: </label>
+                    <input type="email" name="req_email" id="email"  placeholder="dwilliams@example.com" />
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Say Hi!">
+                </div>
+
+            </form>
+
+        </main>
+    </body>
+</html>

@@ -1,45 +1,79 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!--Google Analytics-->
+
+
         <meta charset="utf-8">
-        <title>Contact Me</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <meta name="keywords" content="portfolio graphic design marketing digital strategy freelance">
+        <meta name="description" content="Josh Ostrander's digital marketing and design portfolio.">
 
+        <title>Josh Ostrander</title>
+
+        <!--Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Sarina&display=swap" rel="stylesheet">
+
+
+        <!-- CSS-->
         <link type="text/css" rel="stylesheet" href="css/styles.css">
+
+        <!--Favicon-->
+        <link rel="favicon" href="images/favicon.png">
     </head>
 
     <body>
         <header>
-            <h1><a href="index.html">CONTACT FORM</a></h1>
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="Josh Ostrander Logo" width="350px">
+            </a>
+            <h1>Portfolio</h1>
+
+            <div class="nav">
+                <nav>
+                    <ul class="navlist">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <main class="container">
-            <h2>Say Hi!</h2>
-            <img class="wavinghand" src="images/wavinghand.gif" alt="Waving Hand" width="75">
-            <p>Please excuse the dust. This website is loading. In the mean time, please fill out the form below, and I will be in contact with you shortly!</p>
-            
-            <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-                <div class="first-name input">
-                    <label for="firstname" class="label_input_wrap">First Name: </label>
-                    <input type="text" name="req_firstname" id="firstname"  placeholder="ex. Dave" />
+            <section>
+                <div class="mywork">
+                    <h2>My work</h2>
+                </div>
+                
+                <!--The links to the live documents for the "Work Examples" came from already live links when I had previously displayed work experience online-->
+                <div class="workex1">
+                    <h3>Airbnb Brand & Messaging Guide</h3>
+                    <p>A custom Brand & Messaging guide for Airbnb.<br> The guide contains brand messaging guidelines, example social and blog posts, and social advertising examples and strategies.</p>
+                    <a href="https://9e3b6804-7bbf-419e-901f-2b5a6e7b7e08.filesusr.com/ugd/58637c_d5a6ee3edd104cd2b2daf11cea33be6a.pdf" class="workex1-button" target="_blank">Brand Guide</a>
                 </div>
 
-                <div class="last-name input">
-                    <label for="lastname" class="label_input_wrap">Last Name: </label>
-                    <input type="text" name="req_lastname" id="lastname"  placeholder="ex. Williams" />
+                <div class="workex2">
+                    <h3>APB Store Digital Marketing Strategy</h3>
+                    <p>A 39-page guide with insights and examples of a proposed digital marketing strategy for the APB Store.<br> The strategy includes audience research, communication strategy, content and website examples, and email marketing strategies.</p>
+                    <a href="https://9e3b6804-7bbf-419e-901f-2b5a6e7b7e08.filesusr.com/ugd/58637c_e6e04e1283a24d9e88a933f86c4c2045.pdf" class="workex2-button" target="_blank">Strategy Guide</a>
                 </div>
 
-                <div class="email input">
-                    <label for="email" class="label_input_wrap">Email: </label>
-                    <input type="email" name="req_email" id="email"  placeholder="dwilliams@example.com" />
+                <div class="workex3">
+                    <h3>Facebook Advertisinig Campaign</h3>
+                    <p>I implemented a cross-platform social media advertising campaign that reached over 20,000 new users. The ads generated 500+ link clicks and drove brand awareness while keeping CPC and CPM below industry standards.</p>
+                    <a href="https://9e3b6804-7bbf-419e-901f-2b5a6e7b7e08.filesusr.com/ugd/58637c_783d03c6684a4d468248e8e8379b9bc2.pdf" class="workex3-button" target="_blank">Campaign Deck</a>
                 </div>
 
-                <div class="submit">
-                    <input type="submit" value="Say Hi!">
+                <div class="resume">
+                    <h3>Resume</h3>
+                    <p>This is my resume with all my professsional experience.</p>
+                    <a href="https://9e3b6804-7bbf-419e-901f-2b5a6e7b7e08.filesusr.com/ugd/58637c_fdab3f2e003f44a6b81901c7111f623c.pdf" class="resume-button" target="_blank">Resume</a>
                 </div>
-
-            </form>
+            </section>
 
         </main>
     </body>

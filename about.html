@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!--Google Analytics-->
+
+
         <meta charset="utf-8">
-        <title>Contact Me</title>
 
-        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <meta name="keywords" content="portfolio graphic design marketing digital strategy freelance">
+        <meta name="description" content="Josh Ostrander's digital marketing and design portfolio.">
 
+        <title>Josh Ostrander</title>
+
+        <!--Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Sarina&display=swap" rel="stylesheet">
+
+
+        <!-- CSS-->
         <link type="text/css" rel="stylesheet" href="css/styles.css">
+
+        <!--Favicon-->
+        <link rel="favicon" href="images/favicon.png">
     </head>
 
     <body>
         <header>
-            <h1><a href="index.html">CONTACT FORM</a></h1>
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="Josh Ostrander Logo" width="350px">
+            </a>
+            <h1>Portfolio</h1>
+
+            <div class="nav">
+                <nav>
+                    <ul class="navlist">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="work.html">Work</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <main class="container">
-            <h2>Say Hi!</h2>
-            <img class="wavinghand" src="images/wavinghand.gif" alt="Waving Hand" width="75">
-            <p>Please excuse the dust. This website is loading. In the mean time, please fill out the form below, and I will be in contact with you shortly!</p>
-            
-            <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
-                <div class="first-name input">
-                    <label for="firstname" class="label_input_wrap">First Name: </label>
-                    <input type="text" name="req_firstname" id="firstname"  placeholder="ex. Dave" />
+            <section>
+                <div class="left block">
+                    <h2>Hello.</h2>
+                    <p>My name is Josh. I'm originally from Florida, but I am currently residing in Atlanta. I'm a curious digital designer, effective marketing professional, and curious learner.<br> Feel free to browse my work, and don't be afraid to say hi!</p>
+
+                    <a href="work.html" class="work-button">My work</a>
+                    <a href="contact.html" class="contact-button">Say hi</a>
                 </div>
 
-                <div class="last-name input">
-                    <label for="lastname" class="label_input_wrap">Last Name: </label>
-                    <input type="text" name="req_lastname" id="lastname"  placeholder="ex. Williams" />
+                <div class="right block">
+                    <img src="images/webheadshot.jpg" alt="Josh Ostrander - Portrait" width="380">
                 </div>
-
-                <div class="email input">
-                    <label for="email" class="label_input_wrap">Email: </label>
-                    <input type="email" name="req_email" id="email"  placeholder="dwilliams@example.com" />
-                </div>
-
-                <div class="submit">
-                    <input type="submit" value="Say Hi!">
-                </div>
-
-            </form>
+            </section>
 
         </main>
     </body>

@@ -10,12 +10,13 @@
     margin: 0;
     padding: 0;
     border: 0px;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 h1 a {
     color: #ededed;
     font-size: 70%;
+    font-family: sarina;
 }
 
 h1 a:hover {
@@ -82,7 +83,7 @@ label {
     margin-top: 10px;
     border-radius: 40px;
     max-width: 120px;
-    font-family: anton;
+    font-family: sarina;
 }
 
 .input {
